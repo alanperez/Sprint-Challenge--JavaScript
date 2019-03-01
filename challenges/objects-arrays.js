@@ -176,3 +176,33 @@ Stretch: If you haven't already, convert your array method callbacks into arrow 
 
 */
 
+
+
+
+// const animalNames = [];
+//     zooAnimals.forEach((animal) => {
+//       animalNames.push(`Name: ${animal.animal_name}, Scientific Name: ${animal.scientific_name}`)
+//     });
+// console.log(animalNames);
+
+// const lowerCase = [];
+//     zooAnimals.map((animal) =>
+//     {
+//       lowerCase.push(animal.animal_name.toLowerCase());
+//     });
+// console.log(lowerCase); 
+
+// const largerPopulation = [];
+// zooAnimals.filter((animalFilter) =>
+//     {
+//       if (animalFilter.population <= 5)
+//       {
+//         largerPopulation.push(animalFilter.animal_name)
+//       }
+//     });
+// console.log(largerPopulation);
+
+// const populationTotal = zooAnimals.reduce((total, animal) => {
+//   return total += animal.population;
+// }, 0);
+// console.log(populationTotal);
